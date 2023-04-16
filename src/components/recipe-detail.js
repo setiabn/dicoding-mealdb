@@ -64,11 +64,13 @@ class RecipeDetail extends HTMLElement {
           display: flex;
           gap: 20px;
           height: 250px;
+          justify-content: center;
         }
 
         .meal-picture {
           width: 200px;  
           height: 200px;
+          margin: 10px auto;
           fit-content: cover;          
         }
 
