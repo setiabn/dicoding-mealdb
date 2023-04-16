@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url(container.css);
+@import url(searchbar.css);
+@import url(resultbar.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 30px auto 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header-bar {
+  margin-bottom: 32px;
+}
